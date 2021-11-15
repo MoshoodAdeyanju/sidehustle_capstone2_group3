@@ -28,6 +28,22 @@ class HifiScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             // All OUR WIDGETS WILL GO IN HERE
+
+            Container(
+              child: Row(
+                children: <Widget>[
+                  Text('Do not have account?'),
+                  ElevatedButton(
+                    child: Text(
+                      'Sign Up',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    onPressed: () {},
+                  )
+                ],
+                mainAxisAlignment: MainAxisAlignment.center,
+              ),
+            ),
           ],
         ),
       ),
